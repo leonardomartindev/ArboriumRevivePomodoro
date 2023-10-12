@@ -1,7 +1,7 @@
 import { StartPageContainer, Header, TitleContainer, StartContainer, StartCircle, TitleSvg, Satelite, StartText, PressStart, AstronautArms, PlanetsContainer, Marte, Jupiter, Saturno, LinePlanet} from "./Start.style";
 import Title from '../../public/Title.svg'
-import SateliteImg from '../../public/Satelite.svg'
-import AstronautAr from '../../public/AstronautArms.png'
+import SateliteImg from '../../public/satelite.svg'
+import AstronautAr from '../../public/astronautArms.png'
 import MarteImg from '../../public/Marte.svg'
 import JupiterImg from '../../public/Jupiter.svg'
 import SaturnoImg from '../../public/Saturno.svg'

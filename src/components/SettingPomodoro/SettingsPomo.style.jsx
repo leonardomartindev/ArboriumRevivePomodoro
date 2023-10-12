@@ -8,11 +8,20 @@ export const ContainerMain = styled.main`
     margin-top: -8rem;
     justify-content:center;
     gap: 10rem;
+
+    @media(max-width: 600px){
+        padding: 0 2rem;
+        flex-direction:column;
+    }
 `
 export const Planet = styled.img`
     width: 33vw;
     position:relative;
     z-index: 1;
+
+    @media(max-width: 600px){
+        width: 40vw;
+    }        
 `
 export const Info = styled.p`
     font-size: 2.5rem;
@@ -20,8 +29,12 @@ export const Info = styled.p`
     display:flex;
     flex-direction: column;
     gap: 4rem;
-    transition: opacity 1s ease-out; // Adicione esta linha
-    opacity: ${props => props.show ? '1' : '0'}; // Adicione esta linha
+    transition: opacity 1s ease-out; 
+
+    @media(max-width: 600px){
+        width: auto;
+
+    }
 `
 export const Continue = styled.button`
     border: none;
@@ -35,13 +48,19 @@ export const Continue = styled.button`
 `
 export const Form = styled.form`
     position: absolute; 
-    right: ${props => props.show ? '20%' : '-95%'}; 
     transition: right 1s ease-out;
     text-align:center;
     font-size: 2.2rem;
     display:flex;
     flex-direction:column;
     gap: 4rem;
+
+    @media(max-width: 600px){
+        gap: 2rem;
+        margin-top: 40%;
+        margin-left: 5rem;
+    }        
+
     `
 export const Input = styled.input`
     font-family: 'Space Mono', monospace;
@@ -64,6 +83,12 @@ export const FieldContainer = styled.div`
     gap: 1rem;
     left: ${props => props.left || "-2rem"};
     position:relative;
+
+    @media(max-width: 600px){
+        gap: 5rem;
+        left: 0;
+        flex-direction:row;
+    }
 `
 export const Line = styled.div`
     width: 190%;
@@ -72,6 +97,12 @@ export const Line = styled.div`
     background-color: black;
     top: 70%;
     right: 70%;
+
+    @media(max-width: 600px){
+        width: 100%;
+        display:none;
+        
+    }
 `
 export const Button = styled.button`
     font-family: 'Space Mono', monospace;

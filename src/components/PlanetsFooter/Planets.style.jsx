@@ -8,6 +8,8 @@ export const PlanetsContainer = styled.div`
     left: 0;
     justify-content:center;
     position: fixed;
+
+
     `
 export const Marte = styled.img`
     width: 45px;

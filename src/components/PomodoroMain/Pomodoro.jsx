@@ -105,39 +105,39 @@ export default function Pomodoro() {
             </PomoContainer>    
             <PomoCycle>
                 <CycleLine>
-                    <CycleItem completed={completedPomodoros >= 1}/>
-                    <CycleItem completed={completedPomodoros >= 2}/>
-                    <CycleItem completed={completedPomodoros >= 3}/>
-                    <CycleItem completed={completedPomodoros >= 4}/>
-                    <CycleItem completed={completedPomodoros >= 5}/>
+                    <CycleItem style={{ background: completedPomodoros >= 1 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
+                    <CycleItem style={{ background: completedPomodoros >= 2 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
+                    <CycleItem style={{ background: completedPomodoros >= 3 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
+                    <CycleItem style={{ background: completedPomodoros >= 4 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
+                    <CycleItem style={{ background: completedPomodoros >= 5 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
                 </CycleLine>
                 <CycleLine>
-                    <CycleItem completed={completedPomodoros >= 6}/>
-                    <CycleItem completed={completedPomodoros >= 7}/>
-                    <CycleItem completed={completedPomodoros >= 8}/>
-                    <CycleItem completed={completedPomodoros >= 9}/>
-                    <CycleItem completed={completedPomodoros >= 10}/>
+                    <CycleItem style={{ background: completedPomodoros >= 6 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
+                    <CycleItem style={{ background: completedPomodoros >= 7 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
+                    <CycleItem style={{ background: completedPomodoros >= 8 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
+                    <CycleItem style={{ background: completedPomodoros >= 9 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
+                    <CycleItem style={{ background: completedPomodoros >= 10 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
                 </CycleLine>
                 <CycleLine>
-                    <CycleItem completed={completedPomodoros >= 11}/>
-                    <CycleItem completed={completedPomodoros >= 12}/>
-                    <CycleItem completed={completedPomodoros >= 13}/>
-                    <CycleItem completed={completedPomodoros >= 14}/>
-                    <CycleItem completed={completedPomodoros >= 15}/>
+                    <CycleItem style={{ background: completedPomodoros >= 11 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
+                    <CycleItem style={{ background: completedPomodoros >= 12 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
+                    <CycleItem style={{ background: completedPomodoros >= 13 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
+                    <CycleItem style={{ background: completedPomodoros >= 14 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
+                    <CycleItem style={{ background: completedPomodoros >= 15 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
                 </CycleLine>
                 <CycleLine>
-                    <CycleItem completed={completedPomodoros >= 16}/>
-                    <CycleItem completed={completedPomodoros >= 17}/>
-                    <CycleItem completed={completedPomodoros >= 18}/>
-                    <CycleItem completed={completedPomodoros >= 19}/>
-                    <CycleItem completed={completedPomodoros >= 20}/>
+                    <CycleItem style={{ background: completedPomodoros >= 16 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
+                    <CycleItem style={{ background: completedPomodoros >= 17 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
+                    <CycleItem style={{ background: completedPomodoros >= 18 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
+                    <CycleItem style={{ background: completedPomodoros >= 19 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
+                    <CycleItem style={{ background: completedPomodoros >= 20 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
                 </CycleLine>
                 <CycleLine>
-                    <CycleItem completed={completedPomodoros >= 21}/>
-                    <CycleItem completed={completedPomodoros >= 22}/>
-                    <CycleItem completed={completedPomodoros >= 23}/>
-                    <CycleItem completed={completedPomodoros >= 24}/>
-                    <CycleItem completed={completedPomodoros >= 25}/>
+                    <CycleItem style={{ background: completedPomodoros >= 21 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
+                    <CycleItem style={{ background: completedPomodoros >= 22 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
+                    <CycleItem style={{ background: completedPomodoros >= 23 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
+                    <CycleItem style={{ background: completedPomodoros >= 24 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
+                    <CycleItem style={{ background: completedPomodoros >= 25 ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9" }}/>
                 </CycleLine>
             </PomoCycle>
             <PomoMenu onClick={openSidebar}><GiHamburgerMenu/></PomoMenu>

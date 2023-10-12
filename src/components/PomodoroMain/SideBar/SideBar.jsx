@@ -30,7 +30,7 @@ export default function SiderBar() {
 
   
   return (
-   <SideBar visible={showSideBar}>
+   <SideBar style={{right: showSideBar ? '0' : '-120vw'}}>
         <CloseBar onClick={closeSidebar}>X</CloseBar>
         <Form onSubmit={handleSave}>
           <Field>

@@ -39,24 +39,24 @@ export default function SettingsPomodoro() {
     return (
       <ContainerMain>
           <Planet src={PlanetPomo}/>
-          <Info show={showInfo}>
+          <Info style={{ opacity: showInfo ? '1' : '0' }}>
               Lembre-se, cada ciclo Pomodoro concluído é um pequeno triunfo em direção à restauração deste mundo. Mantenha o foco, e juntos, podemos fazer a diferença.
               <Continue onClick={handleClick}>Continuar</Continue>
           </Info>
-          <Form show={showForm}>
+          <Form style={{ right: showForm ? '20%' : '-190%' }}>
             <FieldContainer>
               <Label htmlFor="focusTimer">Tempo de foco</Label>
-              <Input value={pomodoroInput} autocomplete="off" placeholder="00:00" id="focusTimer" onChange={(e) => setPomodoroInput(e.target.value)}/>
+              <Input value={pomodoroInput} autoComplete="off" placeholder="00:00" id="focusTimer" onChange={(e) => setPomodoroInput(e.target.value)}/>
               <Line/>
             </FieldContainer>
             <FieldContainer left="-10rem">
               <Label htmlFor="focusTimer">Descanso curto</Label>
-              <Input value={shortBreakInput} autocomplete="off" placeholder="00:00" id="focusTimer" onChange={(e) => setShortBreakInput(e.target.value)}/>
+              <Input value={shortBreakInput} autoComplete="off" placeholder="00:00" id="focusTimer" onChange={(e) => setShortBreakInput(e.target.value)}/>
               <Line/>
             </FieldContainer>
             <FieldContainer left="8rem">
               <Label htmlFor="focusTimer">Descanso longo</Label>
-              <Input value={longBreakInput} autocomplete="off" placeholder="00:00" id="focusTimer" onChange={(e) => setLongBreakInput(e.target.value)}/>
+              <Input value={longBreakInput} autoComplete="off" placeholder="00:00" id="focusTimer" onChange={(e) => setLongBreakInput(e.target.value)}/>
               <Line/>
             </FieldContainer>
             <FieldContainer left="-5rem">

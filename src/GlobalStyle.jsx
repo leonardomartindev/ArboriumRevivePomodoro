@@ -10,6 +10,10 @@ export const GlobalStyle = createGlobalStyle`
     html{
         font-size: 62.5%;
         overflow: hidden;
+
+        @media(max-width: 600px){
+          font-size: 45%;
+      }
     }
     a{
         text-decoration:none;

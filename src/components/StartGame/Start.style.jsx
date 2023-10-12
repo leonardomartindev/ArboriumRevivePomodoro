@@ -38,15 +38,14 @@ export const StartPageContainer = styled.div`
     align-items: center;   
 
     @media(max-width: 1000px){
-     justify-content: center;   
+     justify-content: start;   
      align-items: center;   
     }
+    
 `
 export const Header = styled.header`
     display: flex;
-    font-size: 3rem;
     align-items:center;
-    margin-top: 1rem;
 `
 export const TitleContainer = styled.div`
 `
@@ -59,9 +58,9 @@ export const TitleSvg = styled.img`
      margin-bottom: 5rem;
     }
     @media(max-width: 700px){
-     width: 80vw;
+     width: 100vw;
+     margin-left: 2rem;
      margin-bottom: 8rem;
-     margin-left: 10rem;
     }
 
     `
@@ -87,9 +86,6 @@ export const StartContainer = styled.main`
     border: .8rem solid #FF4900;
     box-shadow: 0px 0px 15px #FF4900;
     animation: ${rotate} 70s linear infinite;
-
-    
-
 `
 export const StartText = styled.p`
     color:white;
@@ -149,6 +145,11 @@ export const PlanetsContainer = styled.div`
     justify-content:center;
     gap: 20rem;
     margin-top: 3rem;
+
+    @media(max-width: 700px){
+        display:none;
+    }
+
     `
 export const Marte = styled.img`
     width: 45px;

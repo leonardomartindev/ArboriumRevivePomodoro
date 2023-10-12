@@ -15,6 +15,10 @@ export const Container = styled.div`
 
     p{ 
         font-size: 1.8rem;
+
+        @media(max-width: 600px){
+            padding-bottom: 5rem;
+        }
     }
     svg{
         position:absolute;
@@ -27,6 +31,13 @@ export const Container = styled.div`
             right: 35px;
             color: #ff5500;
         }
+       
+    }
+    @media(max-width: 600px){
+        margin-top: 5rem;
+        flex-direction: column;
+        align-items:center;
+        min-height: 400px;
     }
 `
 
@@ -39,12 +50,21 @@ export const Title = styled.h1``
 export const Astronauta = styled.img`
     position:relative;
     z-index: 1;
+
+    @media(max-width: 600px){
+        width: 30vw;
+    }
 `
 export const SphereAstronauta = styled.img`
     position:relative;
     width: 400px;
     left: -40px;
     z-index: 1;
+
+    @media(max-width: 600px){
+        width: 40vw;
+        left: 0px;
+    }
 `
 
 export const FirstContainer = styled.div`
@@ -59,6 +79,11 @@ export const SunCircle = styled.div`
     border-radius: 50%;
     background-color: #FFD100;
     z-index: 0;
+
+    @media(max-width: 600px){
+        width: 30vw;
+        height: 30vw;
+    }
 
 `
 export const Arrow = styled.div``

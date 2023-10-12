@@ -17,6 +17,11 @@ export const PomoPlanet = styled.div`
     background: linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%);
     width: 300px;
     border-radius: 50%;
+
+    @media(max-width: 600px){
+        width: 200px;
+        height: 200px;
+    }        
 `
 export const PomoTimer = styled.h1`
     display:flex;
@@ -42,6 +47,12 @@ export const PomoName = styled.button`
         background-color: #DCDCDC;
         color: #373737;
     }
+    @media(max-width: 600px){
+        font-size: 1.5rem;
+    }       
+    @media(max-width: 300px){
+        padding: 5px;
+    }   
 `
 export const ButtonContainer = styled.div`
     display:flex;
@@ -107,14 +118,24 @@ export const PomoCycle = styled.div`
     gap: 12px;
     display:flex;
     flex-direction:column;
+    @media(max-width: 600px){
+        left: 5px;
+    }   
+    @media(max-width: 500px){
+        display:none;
+    }   
+        
 `
 export const CycleItem = styled.div`
     width: 42px;
     height: 42px;
     background-color: #D9D9D9;
     border-radius: 50%;
-    background: ${props => props.completed ? "linear-gradient(215deg, #AA8478 14.83%, #945A4F 30.03%, #6D170E 46.75%, #70130B 59.67%, #000 87.79%)" : "#D9D9D9"}
 
+    @media(max-width: 600px){
+        width: 15px;
+        height: 15px;
+    }   
 `
 export const CycleLine = styled.div`
     display:flex;

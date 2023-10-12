@@ -16,8 +16,11 @@ export const SideBar = styled.aside`
     flex-direction:column;
     position:fixed;
     top: 0;
-    right: ${props => (props.visible ? "0" : "-40vw")};
     transition: right 300ms ease-in-out;
+
+    @media(max-width: 600px){
+        width: 60vw;
+    }        
 `
 
 export const CloseBar = styled.button`

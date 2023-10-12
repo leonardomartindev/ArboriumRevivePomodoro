@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import TextoDigitado from "./TextoDigitado";
 import { Astronauta, Container, FirstContainer, SkipD, SphereAstronauta, SunCircle, TextContainer, Title } from "./ContainerDialogos.style";
-import AstronautaImg from '../../public/Astronaut.png'
+import AstronautaImg from '../../public/astronaut.png'
 import SphereAstronautImg from '../../public/sphereAstronaut.png'
 import { FaLongArrowAltRight } from "react-icons/fa"
 import { useContext } from "react";
